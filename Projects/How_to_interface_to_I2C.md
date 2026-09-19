@@ -35,6 +35,7 @@ i2cs:
     ret
 ```
 ### I2C Stop Command
+```
 i2cp:
 ;I2C STOP command
 ; SCL is D[1], SDA is D[0]
