@@ -1,6 +1,6 @@
 # ZZRCC, Z280+RAM+CPLD+CF, a SBC for RC2014 based on Z280
 ## Introduction
-ZZRCC (Z280, RAM, CPLD, and CF disk) is the replacement for ZZ80CF.  It fixed the asynchronous baud clock that intermittently injected an extra character in the serial output.  ZZRCC follows the basic concept of ZRCC that uses a small CPLD to bootstrap from CF disk. Because Z280 has a native serial-bootstrap capability, the CPLD is even simpler than that of ZRCC. ZZRCC is Z280 operating in Z80-compatible mode. It is designed for RC2014 bus.
+ZZRCC (Z280, RAM, CPLD, and CF disk) is the replacement for [ZZ80CF](https://github.com/Plasmode/ZZ80CF).  It fixed the asynchronous baud clock that intermittently injected an extra character in the serial output.  ZZRCC follows the basic concept of [ZRCC](https://github.com/Plasmode/ZRCC) that uses a small CPLD to bootstrap from CF disk. Because Z280 has a native serial-bootstrap capability, the CPLD is even simpler than that of ZRCC. ZZRCC is Z280 operating in Z80-compatible mode. It is designed for RC2014 bus.
 
 ![topview](ZZRCC_rev0_topview.jpg)
 ## Features
@@ -25,15 +25,14 @@ ZZRCC use a small CPLD, EPM7032S, to hold 32-bytes of ROM mapped to 0x0 after re
 When set to serial bootstrap mode, the 32-byte ROM is disabled and Z280 waits for 256 bytes of serial data (115200, Odd parity, 8 data, 1 stop) and start program execution when 256 bytes of serial data have been received. The serial bootstrap mode is used mainly to initialize the CF disk with bootstrap and operational software so ZZRCC can boot from CF disk which is the normal mode of operation.
 
 ## Design Information
-- Schematic
-- Gerber photoplots
-- CPLD design
-- Bill of Materials
+- [Schematic](zzrcc_rev0_scm.pdf)
+- [Gerber photoplots](zzrcc_gerber_rev0.zip)
+- [CPLD design](zzrcc_i2c_cpld_12-18-20.zip)
+- [Bill of Materials](zzrcc_rev0pcb_bom.pdf)
 
 ## Software
-- ZZRCC Serial Loader. A small 256-byte program designed to be serially loaded into ZZRCC when configured to serial bootstrap mode.
-
-- ZZRCC Monitor. A simple monitor for ZZRCC
+- [ZZRCC Serial Loader](Software/zrserloader_v0_1_12_20_20.zip). A small 256-byte program designed to be serially loaded into ZZRCC when configured to serial bootstrap mode.
+- [ZZRCC Monitor](Software/zzrmon_v0_5_released.zip). A simple monitor for ZZRCC
 
 - CF Bootloader. An utility program that copies bootstrap program to Master Boot Block of a CF disk and ZZRCC Monitor to designated space of CF disk.
 
