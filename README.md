@@ -63,7 +63,7 @@ ZZRCC Monitor manual
 
 ## Projects
 ### I2C Interface
-How to Interface to I2C connector on ZZRCC
+[How to Interface to I2C connector on ZZRCC](Projects/How_to_interface_to_I2C.md)
 
 ### Interface to 128x64 OLED display
 This is ZZRCC driving a 128×64 OLED display over the I2C bus. The clock is free-running rapidly mainly as a demonstration of I2C display interface capability. Load and run the [clock demo](Projects/zzrcc_i2c_fast_free_running_clock.zip) program from 0x1000
@@ -78,4 +78,5 @@ This page describes the hardware and software interface to 128×128 grey scale O
 
 ### Run ROMWBW on ZZRCC
 Wayne Warthen's ROMWBW (v3.1.1 pre.56 or later) is under development to run on ZZRCC. This is an interim procedure for serially load ROMWBW in ZZRCC. A better solution under development is to save the ROMWBW image in CF disk so it can be quickly loaded with a monitor command.
+
 ![romwbw](Projects/zzrcc_rev0_romwbw_pre56.jpg)
