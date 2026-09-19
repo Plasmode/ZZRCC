@@ -34,7 +34,7 @@ When set to serial bootstrap mode, the 32-byte ROM is disabled and Z280 waits fo
 - [ZZRCC Serial Loader](Software/zrserloader_v0_1_12_20_20.zip). A small 256-byte program designed to be serially loaded into ZZRCC when configured to serial bootstrap mode.
 - [ZZRCC Monitor](Software/zzrmon_v0_5_released.zip). A simple monitor for ZZRCC
 - [CF Bootloader](Software/updated_cfbootloader_1_8_21.zip). An utility program that copies bootstrap program to Master Boot Block of a CF disk and ZZRCC Monitor to designated space of CF disk.
-- [SCMonitor+StarTrek](Software/scmonitor_startrek_zzrcc.zip). This is Steve Cousin's SCMonitor ported to ZZRCC. This is [Steve Cousin's homepage](https://smallcomputercentral.wordpress.com/). As an extra bonus, it includes the StarTrek program in BASIC. To install SCMonitor+StarTrek, send scmonitor_startrek.hex to ZZRCC and type 'c1' to install it in track 0 of CF disk. Once it is installed, type 'b1' to load and run SCMonitor. To run Startrek in BASIC, type 'wbasic', then 'run'. Have fun! [Youtube video](https://www.youtube.com/watch?v=CbfR3bzuxMc) of running Startrek in ZZRCC using a TeraTerm macro file. This is the TeraTerm macro program
+- [SCMonitor+StarTrek](Software/scmonitor_startrek_zzrcc.zip). This is Steve Cousin's SCMonitor ported to ZZRCC. This is [Steve Cousin's homepage](https://smallcomputercentral.wordpress.com/). As an extra bonus, it includes the StarTrek program in BASIC. To install SCMonitor+StarTrek, send scmonitor_startrek.hex to ZZRCC and type 'c1' to install it in track 0 of CF disk. Once it is installed, type 'b1' to load and run SCMonitor. To run Startrek in BASIC, type 'wbasic', then 'run'. Have fun! [Youtube video](https://www.youtube.com/watch?v=CbfR3bzuxMc) of running Startrek in ZZRCC using a [TeraTerm macro file](Software/zzrcc_install_all_teraterm_macro.zip). This is the TeraTerm macro program
 
 - [CP/M2.2 BIOS/CCP/BDOS](Software/cpm22_v0_1_12_20_20.zip) for ZZRCC. To install it, send cpm22all.hex to ZZRCC and type 'c2' to install it in track 0 of CF disk. Once it is installed, type 'b2' to load and run CP/M2.2
 
@@ -48,7 +48,7 @@ When set to serial bootstrap mode, the 32-byte ROM is disabled and Z280 waits fo
 
 - [HTC309](https://github.com/Plasmode/Z80SBC64/blob/main/Software/htc309.zip) is version 3.09 of HiTech C that has been released into publica domain. It is compressed with arj, use unarj.com above to decompress
 
-- Installation macro for ZZRCC CF disk. This zipped file contains all the files that are installed in a released ZZRCC disk. The installation macro runs in TeraTerm and expects all files in directory c:\teraterm\zzrcc Run the macro once the serial loader is loaded and the serial port is changed back to 115200 N81.
+- Installation macro for ZZRCC CF disk. This [zipped file](Software/zzrcc_install_all_teraterm_macro.zip) contains all the files that are installed in a released ZZRCC disk. The installation macro runs in TeraTerm and expects all files in directory c:\teraterm\zzrcc Run the macro once the serial loader is loaded and the serial port is changed back to 115200 N81.
 
 ## Manuals and Instructions
 - Getting started with ZZRCC
