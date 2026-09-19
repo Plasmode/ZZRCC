@@ -17,7 +17,7 @@ Edit RCZ280.hex file so data in address range 0x5000 to 0x6FFF are removed. This
 
 - [ROMWBWldr](romwbwldr.zip) source and executable.
 - [RCZ280.hex v3.1.1 pre.56](rcz280.zip) with data in address range 0x5000 to 0x6FFF already removed.
-[Zipped image of RomWBW](hd1024_zzr_combo_image.zip) ← temporary image, will updated with latest RomWBW and repost.
+- [Zipped image of RomWBW](hd1024_zzr_combo_image.zip) ← temporary image, will updated with latest RomWBW and repost.
 
 10/13/23. Lots of changes since last update.
 
