@@ -73,7 +73,7 @@ Conway's Game of Life, [Gosper Glider Gun](Projects/zzrcc_i2c_game_of_life.zip),
 ![gosper_gun](Projects/zzrcc_rev0_i2c_gosper_glide_gun.jpg)
 
 ### Interface to 128x128 gray scale OLED display
-This page describes the hardware and software interface to 128×128 grey scale OLED display
+This page describes the hardware and software [interface to 128×128 grey scale OLED](Projects/Grey_scale_OLDE_Interface.md) display
 ![grey](Projects/zzrcc_rev0_i2c_grey_scale.jpg)
 
 ### Run ROMWBW on ZZRCC
