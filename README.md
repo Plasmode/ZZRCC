@@ -61,25 +61,21 @@ CPM3
 
 ZZRCC Monitor manual
 
-## Applications
+## Projects
 ### I2C Interface
 How to Interface to I2C connector on ZZRCC
 
 ### Interface to 128x64 OLED display
 This is ZZRCC driving a 128×64 OLED display over the I2C bus. The clock is free-running rapidly mainly as a demonstration of I2C display interface capability. Load and run the clock demo program from 0x1000
-
-www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zzrcc_zzrcc_i2c_annotatated.jpg
+![I2C](Projects/zzrcc_rev0_i2c_annotatated.jpg)
 
 Conway's Game of Life, Gosper Glider Gun, running on ZZRCC. Load and run the program from 0x1000
-
-www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zzrcc_applications_zzrcc_i2c_gosper_glide_gun.jpg
+![gosper_gun](Projects/zzrcc_rev0_i2c_gosper_glide_gun.jpg)
 
 ### Interface to 128x128 gray scale OLED display
 This page describes the hardware and software interface to 128×128 grey scale OLED display
-
-www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zzrcc_applications_128x128oled_dsc_64890228.jpg
+![grey](Projects/zzrcc_rev0_i2c_grey_scale.jpg)
 
 ### Run ROMWBW on ZZRCC
 Wayne Warthen's ROMWBW (v3.1.1 pre.56 or later) is under development to run on ZZRCC. This is an interim procedure for serially load ROMWBW in ZZRCC. A better solution under development is to save the ROMWBW image in CF disk so it can be quickly loaded with a monitor command.
-
-www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zzrcc_applications_romwbw_zzrcc_romwbw_pre56.jpg
+![romwbw](Projects/zzrcc_rev0_romwbw_pre56.jpg)
