@@ -51,10 +51,10 @@ When set to serial bootstrap mode, the 32-byte ROM is disabled and Z280 waits fo
 - Installation macro for ZZRCC CF disk. This [zipped file](Software/zzrcc_install_all_teraterm_macro.zip) contains all the files that are installed in a released ZZRCC disk. The installation macro runs in TeraTerm and expects all files in directory c:\teraterm\zzrcc Run the macro once the serial loader is loaded and the serial port is changed back to 115200 N81.
 
 ## Manuals and Instructions
-- Getting started with ZZRCC
+- [Getting started](Manuals/Getting_started.md) with ZZRCC
 - ZZRCC Monitor manual
 - Testing ZZRCC without CF disk
-- Z280 Technical manual
+- [Z280 Technical manual](Manuals/z280_mpu_noocr_bw_400_.pdf)
 
 ## ToDo
 CPM3
