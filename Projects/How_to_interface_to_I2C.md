@@ -4,8 +4,10 @@ ZZRCC has a 4-pin I2C connector and a bit-bang register in CPLD that controls th
 
 ## I2C Connector Definition
 The pin assignments of the I2C connector from left-to-right are
-
-–annotated picture here— SDA, SCL, GND VCC
+```
+SDA, SCL, GND VCC
+```
+![I2C](Projects/zzrcc_rev0_i2c_gosper_glide_gun.jpg)
 
 ## I2C Register in CPLD
 - I/O address is 0x9E
