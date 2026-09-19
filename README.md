@@ -77,6 +77,6 @@ This page describes the hardware and software interface to 128×128 grey scale O
 ![grey](Projects/zzrcc_rev0_i2c_grey_scale.jpg)
 
 ### Run ROMWBW on ZZRCC
-Wayne Warthen's ROMWBW (v3.1.1 pre.56 or later) is under development to run on ZZRCC. This is an interim procedure for serially load ROMWBW in ZZRCC. A better solution under development is to save the ROMWBW image in CF disk so it can be quickly loaded with a monitor command.
+Wayne Warthen's ROMWBW (v3.1.1 pre.56 or later) is under development to run on ZZRCC. This is an [interim procedure](Projects/serially_load_romwbw.md) for serially load ROMWBW in ZZRCC. A better solution under development is to save the ROMWBW image in CF disk so it can be quickly loaded with a monitor command.
 
 ![romwbw](Projects/zzrcc_rev0_romwbw_pre56.jpg)
