@@ -5,7 +5,6 @@ The following are hardware and software required to run ver 3.1.1 pre.56 (or lat
 ### Hardware
 To enable hardware handshake, 100 ohm resistor R5 must be installed. On the CP2102 USB-serial adapter the DTR trace to pin 1 needs to be cut and a jumper added from CTS pad to pin 1 of the header.
 
-www.retrobrewcomputers.org_lib_plugins_ckgedit_fckeditor_userfiles_image_builderpages_plasmo_zzrcc_applications_romwbw_zzrcc_for_romwbw.jpg
 ![ZZRCC romwbw](zzrcc_rev0_for_romwbw.jpg)
 ![cp2102mod](cp2102_handshake_mod.jpg)
 
