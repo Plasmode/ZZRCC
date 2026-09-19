@@ -53,7 +53,7 @@ When set to serial bootstrap mode, the 32-byte ROM is disabled and Z280 waits fo
 ## Manuals and Instructions
 - [Getting started](Manuals/Getting_started.md) with ZZRCC
 - ZZRCC Monitor manual
-- Testing ZZRCC without CF disk
+- [Testing ZZRCC without CF disk](Manuals/test_ZZRCC_without_CF.md)
 - [Z280 Technical manual](Manuals/z280_mpu_noocr_bw_400_.pdf)
 
 ## ToDo
