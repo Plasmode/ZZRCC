@@ -66,10 +66,10 @@ ZZRCC Monitor manual
 How to Interface to I2C connector on ZZRCC
 
 ### Interface to 128x64 OLED display
-This is ZZRCC driving a 128×64 OLED display over the I2C bus. The clock is free-running rapidly mainly as a demonstration of I2C display interface capability. Load and run the clock demo program from 0x1000
+This is ZZRCC driving a 128×64 OLED display over the I2C bus. The clock is free-running rapidly mainly as a demonstration of I2C display interface capability. Load and run the [clock demo](Projects/zzrcc_i2c_fast_free_running_clock.zip) program from 0x1000
 ![I2C](Projects/zzrcc_rev0_i2c_annotatated.jpg)
 
-Conway's Game of Life, Gosper Glider Gun, running on ZZRCC. Load and run the program from 0x1000
+Conway's Game of Life, [Gosper Glider Gun](Projects/zzrcc_i2c_game_of_life.zip), running on ZZRCC. Load and run the program from 0x1000
 ![gosper_gun](Projects/zzrcc_rev0_i2c_gosper_glide_gun.jpg)
 
 ### Interface to 128x128 gray scale OLED display
